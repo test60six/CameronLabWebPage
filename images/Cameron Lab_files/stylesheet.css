@@ -1,0 +1,150 @@
+.jumbotron{
+  background-image: url(https://medicine.uiowa.edu/humangenetics/sites/medicine.uiowa.edu.humangenetics/files/genome-990x350.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit:fill; */
+}
+h1{
+  color:white;
+  padding-bottom: 50px
+}
+h2{
+  text-align: center;
+  color:white;
+}
+body {
+
+  background-color:#d8eaed;
+}
+
+#mission{
+  text-align: center;
+}
+p {
+  color: black;
+  /* text-align: center; */
+}
+.footer {
+  position:sticky;
+  left: 0;
+  bottom: 15px;
+  width: 100%;
+  background-color:#RRGGBBAA;
+  color: white;
+  text-align: center;
+}
+#Process{
+  padding-bottom: 20px
+}
+#rna1{
+  padding-bottom: 20px
+}
+#text{
+  padding-left: 100px;
+  text-align:left;
+}
+#meeting{
+  text-align: center;
+  padding-bottom: 20px
+}
+#fragmentanalyzer{
+  text-align: center;
+  padding-bottom: 20px
+}
+#pipetting{
+  text-align: center;
+  padding-bottom: 20px
+}
+#endPage{
+  padding-top:100px
+}
+#list1{
+  text-align:left;
+
+}
+#footertext{
+  /* font-family: Tangerine; */
+  padding-top: 10px;
+}
+#bottomrow{
+  padding-bottom: 100px
+}
+.navbar{
+  position: fixed;
+  top:0;
+  width: 100%;
+  -webkit-box-shadow: 0px 0px 8px 0px #000000;
+  -moz-box-shadow: 0px 0px 8px 0px #000000;
+  box-shadow: 0px 0px 8px 0px #000000;
+  color: white;
+  z-index: 500;
+}
+#para{
+  text-align: right;
+}
+#mark{
+  padding-left: 15px;
+  float:right;
+}
+#mtext{
+  text-align:justify;
+  /* clear:right; */
+}
+#cheryl{
+  padding-left: 15px;
+  float:right;
+}
+#ctext{
+  text-align:justify;
+  clear:left;
+}
+#dennis{
+  padding-left: 15px;
+  float:right;
+}
+#dtext{
+  text-align:justify;
+  clear:right;
+}
+#brian{
+  padding-left: 15px;
+  float:right;
+}
+#btext{
+  text-align:justify;
+  clear:left;
+}
+#wendy{
+  padding-left: 15px;
+  float:right;
+}
+#chtext{
+  text-align:justify;
+  clear:left;
+}
+#banu{
+  padding-left: 15px;
+  float:right;
+}
+#bantext{
+  text-align:justify;
+  clear:left;
+}
+#jeeda{
+  padding-left: 15px;
+  float:right;
+}
+#jtext{
+  text-align:justify;
+  clear:left;
+  }#harrison{
+    padding-left: 15px;
+    float:right;
+  }
+  #htext{
+    text-align:justify;
+    clear:left;
+  }
+  #bioheading{
+    color:black;
+  }
