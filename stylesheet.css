@@ -148,3 +148,16 @@ p {
   #bioheading{
     color:black;
   }
+#visworkflow{
+  padding:inherit;
+}
+#pubmed{
+  position: relative;
+
+
+}
+#pubmed2{
+ position:static;
+
+
+}
