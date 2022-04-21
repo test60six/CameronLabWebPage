@@ -47,7 +47,7 @@
 </div>
 <div class="jumbotron">
   <h1 class="display-4">Cameron Laboratory</h1>
-  <h2 class="lead"> Welcome to the Cameron Laboratory and Applied Fucntional Genomics Core</h2>
+  <h2 class="lead"> Welcome to the Cameron Laboratory and Applied Fucntional Genomics Core </h2>
 </div>
 
 <body>
@@ -55,40 +55,43 @@
   <tr>
     <h3> Please fill out the form below with a brief description of your inquiry and we will contact you</h3>
 <br>
+<!-- add contact forms -->
+
+<br>
   <section class="contact-wrap">
     <form action="" class="contact-form">
       <div class="col-sm-6">
         <div class="input-block">
-          <label for="">First Name</label>
+          <label for="{{ form.name(placeholder='first name') }} ">First Name</label>
           <input type="text" class="form-control">
         </div>
       </div>
       <div class="col-sm-6">
         <div class="input-block">
-          <label for="">Last Name</label>
+          <label for="{{ form.last(placeholder='Last Name') }}">Last Name</label>
           <input type="text" class="form-control">
         </div>
       </div>
       <div class="col-sm-12">
         <div class="input-block">
-          <label for="">Email</label>
+          <label for="{{ form.email(placeholder='Your e-mail ...') }} ">Email</label>
           <input type="text" class="form-control">
         </div>
       </div>
       <div class="col-sm-12">
         <div class="input-block">
-          <label for="">Message Subject</label>
+          <label for="{{form.subject(placeholder='Your subject ...')}} ">Message Subject</label>
           <input type="text" class="form-control">
         </div>
       </div>
       <div class="col-sm-12">
         <div class="input-block textarea">
-          <label for="">Drop your message here</label>
+          <label for="{{ form.message(placeholder='write your request ...') }} ">Drop your message here</label>
           <textarea rows="3" type="text" class="form-control"></textarea>
         </div>
       </div>
       <div class="col-sm-12">
-        <button class="square-button">Send</button>
+        <button input type="{{ form.submit }}"class= "square-button">Send</button>
       </div>
     </form>
 
