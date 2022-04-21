@@ -1,9 +1,21 @@
-import flask
+# pip install flask-bootstrap
 
-import smtplib
-from email.message import EmailMessage
-from string import template
-from pathlib import Path
+import flask
+from flask import Flask
+from flask_bootstrap import Bootstrap
+
+
+
+# import smtplib
+# from email.message import EmailMessage
+# from string import template
+# from pathlib import Path
+
+def create_app():
+    app = Flask(__name__)
+    Bootstrap(app)
+
+    return app
 
 html= Template(Path("contact.html").read_text())
 
